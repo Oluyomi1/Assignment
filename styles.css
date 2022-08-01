@@ -1,0 +1,61 @@
+.container {
+  border: 2px blue dotted;
+  background-color: #ff7b00;
+  padding: 1em;
+}
+
+body {
+  font-family: "Century Gothic", sans-serif;
+}
+
+body,
+ul,
+h1.h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-nav {
+  padding: 8px 0px;
+}
+
+.container {
+  width: 100%;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-float::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.ml-20 {
+  margin-right: 20px;
+}
